@@ -54,10 +54,10 @@ public void mergeSort(int[] a) {
 
     Entrada: arreglo 'numeros_aleatorios'
     Inicia:
+   
        max1 = Declaro el numero menor posible de java, max2 = igual el numero mas grande
        mini1 = numero mas grande, mini2 = el msa grande
-       
-    Para cada número 'n' tomar de  'numeros_aleatorios':
+        Para cada número 'n' tomar de  'numeros_aleatorios':
        // Lógica para los mayores
        Si (n > max1):
            max2 = max1  // El que era 1ro ahora es 2do
@@ -76,11 +76,11 @@ public void mergeSort(int[] a) {
     3. Imprimir max2 y mini2
 Fin Algoritmo
 
-2. *Explicación breve de por qué el algoritmo funciona correctamente.*/
+3. *Explicación breve de por qué el algoritmo funciona correctamente.*/
 El algoritmo funciona porque al comparar cada numoer nuevo con el lider por asi decirlo despues de tomarlo del array y meterlo en la variable n nos aseguramos de no perde la referncia del valor anterio con los max1 y mini 1 por ejemplo el caual se desplazan a la segund aposicion.
 
 
-3. Análisis de complejidad:
+4. Análisis de complejidad:
 
    TIEMPO  (NOTACION O) En tiempo pues porque solo hay un bucle que recorre el arreglo  solamenente una vez esto gracias a que se corre un espacio por asi decirlo en cada comparacion.
 
