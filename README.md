@@ -29,5 +29,22 @@ public void mergeSort(int[] a) {
     merge(a, left, right);
   } //ESTA ME PARECIO RELEVANTE YA QUE NUNCA LO HABIA VISTO ESO DE PARTIR EN 2 UN ARREGLO 
 
-  
+   private int partition(int[] arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+      if (arr[j] <= pivot) {
+        i++;
+        int k = arr[i];
+        arr[i] = arr[j];
+        arr[j] = k;
+      } 
+    } 
+    int temp = arr[i + 1];
+    arr[i + 1] = arr[high];
+    arr[high] = temp;
+    return i + 1;
+  }
+}
+//ESTE IGUAL AUNQUE LA SINTAXIS DE ESTA SI AUN NO LA ENTIENDO MUCHO EN EL SENTIDO DE QUE SE QUE HACE PERO NO LO PODRIA HACERlLO POR MI CUENTA AUN YA QUE ESTE UTILIZA  EL UJLTIMO ELEMMETO COMOO PIVOTE Y REORDENA EL ARREGLO PARA LOS MENORES O = A LA IZQUIERA Y LOS AMYORES A LA DERECHA.
   
