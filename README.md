@@ -73,7 +73,9 @@ public void mergeSort(int[] a) {
        Sino si (n < min2 Y n != min1):
            min2 = n     // El nuevo entra al 2do puesto de los numeros pequeños
            
-    3. Imprimir max2 y mini2
+   Imprimir max2 y mini2
+
+   
 Fin Algoritmo
 
 3. *Explicación breve de por qué el algoritmo funciona correctamente.*/
