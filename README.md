@@ -87,7 +87,7 @@ El algoritmo funciona porque al comparar cada numoer nuevo con el lider por asi 
    ESPACIO : Porque solo use 4 variables lo que me ayuda a dejar por un lado por asi dericlo si el arreglo tiene mas de 20 datos, lo cual esto me ahora memoria.
 
 
-EVIDENCIA DEL TRABAJO REALIZADO
+EVIDENCIA DEL TRABAJO REALIZADO ADJUNTARE CAPTURAS YA QUE REALICE EL ALGORITMO EL ECLIPSE PARA PROBAR. PDT: NO SUBI EL CODIGO YA QUE AL INICIO DICE QUE NO SUBIR CODIGO FUENTE Y SUPUSE QUE NO SOLO DE LA DESCOPIALCION SI NO DEL EJERICICO DEL ALGORITMO TAMBIEN 
 <img width="896" height="618" alt="image" src="https://github.com/user-attachments/assets/179c01c4-e198-40f2-a475-755fd0c7ec83" />
 <img width="896" height="618" alt="image" src="https://github.com/user-attachments/assets/caf930b7-ae48-4c87-b985-4b5c2b33e30b" />
 
