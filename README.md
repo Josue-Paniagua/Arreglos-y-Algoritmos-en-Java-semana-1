@@ -3,7 +3,7 @@
 Parte 1: Ingeniería inversa del JAR
 
 ¿Qué clases existen?                                                                                                                                                                                                  
-R// Las clases que veo en este archivo son la de bubblesort, MegeSortDemo, Quicksort, y SumArray.
+R// Las clases que veo en este archivo son la de bubblesort, MegeSortDemo, Quicksort y SumArray.
 
 ¿Qué operaciones se realizan sobre los arreglos?                                                                                                                                                                                                                                    
 
