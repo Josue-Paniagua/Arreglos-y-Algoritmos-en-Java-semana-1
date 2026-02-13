@@ -13,3 +13,21 @@ R// Las operaciones que veo son las acumulaciones y que suma esta misma, tambien
 
 
 R// Los algoritmos que veo y que me toco investigar es el de la burbuja que es la clase de bubblesort el de merge sort, quicksort y el uso de los arrays sort que por lo que investigue sirve para poder ordenar automaticamente los elementos de un array que generalmente es ascendente.
+
+PARTE DE LA EVIDENCIA 
+
+Fragmentos relevantes del código decompilado:
+
+public void mergeSort(int[] a) {
+    if (a.length <= 1)
+      return; 
+    int mid = a.length / 2;
+    int[] left = Arrays.copyOfRange(a, 0, mid);
+    int[] right = Arrays.copyOfRange(a, mid, a.length);
+    mergeSort(left);
+    mergeSort(right);
+    merge(a, left, right);
+  } //ESTA ME PARECIO RELEVANTE YA QUE NUNCA LO HABIA VISTO ESO DE PARTIR EN 2 UN ARREGLO 
+
+  
+  
